@@ -8,3 +8,8 @@ Contains a compiled executable from MATLAB Compiler that requires [MCR](https://
 
 ## Headless use
 Even though this program runs completelly headless, MCR still needs xorg libraries to run image processing and figure display related functions.
+
+Namely, under Ubuntu you might need to run this command to install all that is required: 
+```
+apt-get install xvfb libglu1-mesa libxrandr2
+```

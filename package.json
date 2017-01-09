@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "A node.js wrapper for MAPTCHA",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NejTech/maptcha-node.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Jan Nejtek",
   "license": "BSD-3-Clause",

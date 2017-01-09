@@ -1,0 +1,18 @@
+{
+  "name": "maptcha-node",
+  "version": "0.1.0",
+  "description": "A node.js wrapper for MAPTCHA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jan Nejtek",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "express": "^4.14.0",
+    "sqlite3": "^3.1.8",
+    "twig": "^0.10.3",
+    "uuid": "^3.0.1"
+  }
+}
